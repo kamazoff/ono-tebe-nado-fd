@@ -250,7 +250,6 @@ body {
         "about__logo about__text";
     margin: 120px 24px 180px;
     gap: 0 25px;
-
     
 }
 
@@ -281,8 +280,7 @@ body {
     text-transform: uppercase;
     align-self: center;
     margin-top: 35px;
-    
-    
+     
 }
 
 .about__text {
