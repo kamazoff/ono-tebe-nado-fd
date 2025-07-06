@@ -3,6 +3,24 @@ body {
         
 }
 
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    text-decoration: none;
+    flex-wrap: wrap;
+    font-style: normal;
+    
+}
+
+.link {
+    text-underline-position: under;
+}
+
+.link__active {
+    text-decoration: none;
+}
+
 /*header*/
 
 .header {
@@ -13,16 +31,6 @@ body {
     font-size: 18px;
     line-height: 24.3px;
         
-}
-
-.address {
-    display: flex;
-    flex-direction: column;
-    justify-self: end;
-    text-decoration: none;
-    flex-wrap: wrap;
-    font-style: normal;
-   
 }
 
 .header__logo {
@@ -54,19 +62,9 @@ body {
     
 }
 
-.header__link_active {
-    text-decoration: none;
-}
-
-
 .header__address {
     margin-right: 20px;
     max-width: 220px;
-}
-
-.header__link {
-    text-underline-position: under;
-    
 }
 
 /*cover*/
@@ -117,8 +115,7 @@ body {
 
 .aligned-text_right {
     text-align: end;
-    
-    
+   
 }
 
 .cover__description {
@@ -130,9 +127,11 @@ body {
 }
 
 .bet-button {
+    font-family: Raleway, sans-serif;
     background-color: transparent;
     border: 1px solid white;
     padding: 11px 32px;
+    cursor: pointer;
 }
 
 .cover__description-text {
@@ -171,8 +170,6 @@ body {
     margin-top: 32px;
     
 }
-
-
 
 .card {
     position: relative;
@@ -234,8 +231,7 @@ body {
     margin-top: 30px;
     margin-left: 40px;
     font-size: 20px;
-    text-underline-position: under;
-    
+
 }
 
 /* about */
@@ -250,6 +246,7 @@ body {
         "about__logo about__text";
     margin: 120px 24px 180px;
     gap: 0 25px;
+
     
 }
 
@@ -260,7 +257,7 @@ body {
     align-items: center;
     width: 240px;
     height: 240px;
-    border-radius: 120px;
+    border-radius: 50%;
     background-color: black;
     place-self: start center;
     margin-top: 35px;
@@ -280,7 +277,7 @@ body {
     text-transform: uppercase;
     align-self: center;
     margin-top: 35px;
-     
+    
 }
 
 .about__text {
@@ -299,7 +296,6 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    min-height: 180px;
     padding: 0 50px;
 }
 
@@ -334,12 +330,4 @@ body {
 .footer__social-list-item {
     width: 48px;
     height: 48px;
-}
-
-.footer__menu-link {
-    text-underline-position: under;
-}
-
-.footer__menu-link_active {
-    text-decoration: none;
 }
