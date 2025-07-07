@@ -296,7 +296,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 50px 82px;
 }
 
 .footer__address {
